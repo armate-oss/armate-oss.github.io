@@ -1,0 +1,34 @@
+body {
+    background-image: url(imagenes/fondo2.jpg);
+    background-position:center center ;
+    background-repeat:no-repead;
+    background-size: cover;
+    background-attachment: fixed;  
+    }
+
+  .contenedor {
+    background-color: rgba(43, 33, 48, 0.596);
+    padding: 20px;
+    margin: 40px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  
+  h2 {
+    text-align: center;
+    color: aliceblue;
+  }
+  
+  img {
+    max-width: 30%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+  }
+  p{
+    color: aliceblue;
+  }
+  h3,li,ul,ol{
+    color: aliceblue;
+  }

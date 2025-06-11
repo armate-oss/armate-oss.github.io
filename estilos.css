@@ -1,0 +1,55 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #3a3a3a url('background-texture.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 90%;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  }
+  
+  .logo {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 30px;
+    border-radius: 100%;
+  }
+  
+  
+  .start-btn {
+    background-color: #ccc;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    animation: parpadeo 1.5s infinite;
+  }
+
+@keyframes parpadeo {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.3;
+    }
+  }

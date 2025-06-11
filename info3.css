@@ -1,0 +1,57 @@
+body{
+
+    background-image: url(imagenes/Fon.jpg);
+    
+    
+    background-position:center center ;
+    background-repeat:no-repead;
+    
+    background-size: cover;
+    
+    background-attachment: fixed;
+    }
+    
+    
+  .contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+  }
+  
+  .item {
+    width: 45%;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(201, 181, 181, 0.1);
+  }
+  
+  .izquierda {
+    text-align: left;
+    background-color: rgba(181, 165, 189, 0.5);
+  }
+  
+  .derecha {
+    text-align: right;
+    background-color: rgba(43, 33, 48, 0.5);
+  }
+  
+  p {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: aliceblue;
+  }
+  h1{
+    color: aliceblue;
+  }
+  h2{
+    color: aliceblue;
+  }
+  audio{
+    opacity: 0.5;
+  }
